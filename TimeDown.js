@@ -19,11 +19,7 @@ function TimeDown(id, endDateStr) {
     //输出到页面
     if(totalSeconds<=0)
     {
-        document.getElementById(id).innerHTML = "考试已结束";
-    }
-    else if(totalSeconds<=3600)
-    {
-        document.getElementById(id).innerHTML = "考试将在1小时内开始";
+        document.getElementById(id).innerHTML = "新年快乐！";
     }
     else
     {
